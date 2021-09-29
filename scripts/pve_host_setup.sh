@@ -125,11 +125,11 @@ fi
 SECTION_HEAD="PVE Host Build & Configure"
 
 # Download external scripts
-wget -qLO - https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_add_nfs_mounts.sh
-wget -qLO - https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_add_cifs_mounts.sh
-wget -qLO - https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_postfix.sh
-wget -qLO - https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_sshkey.sh
-wget -qLO - https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_fail2ban.sh
+wget -qL https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_add_nfs_mounts.sh
+wget -qL https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_add_cifs_mounts.sh
+wget -qL https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_postfix.sh
+wget -qL https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_sshkey.sh
+wget -qL https://raw.githubusercontent.com/Terit/pve-host-setup/master/scripts/pve_setup_fail2ban.sh
 
 
 #########################################################################################
