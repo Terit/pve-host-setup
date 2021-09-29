@@ -94,7 +94,6 @@ WHITE=$'\033[1;37m'
 NC=$'\033[0m'
 
 # Detect modules and automatically load at boot
-load_module aufs
 load_module overlay
 
 # Set Temp Folder
