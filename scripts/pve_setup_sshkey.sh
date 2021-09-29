@@ -97,7 +97,6 @@ NC=$'\033[0m'
 printf '\033[8;40;120t'
 
 # Detect modules and automatically load at boot
-load_module aufs
 load_module overlay
 
 # Set Temp Folder
