@@ -475,7 +475,9 @@ You must have a running network accessible File Server (NAS) with NFS and/or CIF
 Your NAS server CIFS or NFS properties must be configured so your PVE host backend can mount these NAS shares automatically.
 
 Your options are:
+
 **NAS Appliance** - A NAS of any brand or type, Synology, QNap, FreeNAS, Windows or Linux server, available on your network preferably with IPv4 address `XXX.XXX.XXX.10` ( *default is 192.168.1.10* ). The NAS must be installed with Samba and NFSv4.1 services. This guide details what you must to do to setup your NAS NAS File sharing and permissions. 
+
 **PVE NAS** (ZFS) - A PVE ZFS RaidZ storage pool (backend) can be hosted on PVE-01. Management of the backend storage is by a PVE Ubuntu CT (labelled NAS-01) frontend also hosted on PVE-01. NAS-01 CT is installed with NFSv4.1 and Samba services. Our detailed guide includes an Easy Scripts to setup a [PVE NAS](https://github.com/ahuacate/pve-zfs-nas/blob/master/README.md).
 
 
